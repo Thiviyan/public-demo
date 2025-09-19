@@ -2,16 +2,5 @@
   "buildCommand": "yarn build",
   "outputDirectory": "dist",
   "installCommand": "yarn install",
-  "framework": null,
-  "functions": {
-    "src/server.ts": {
-      "runtime": "nodejs18.x"
-    }
-  },
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/api/server"
-    }
-  ]
+  "framework": null
 }

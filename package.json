@@ -5,7 +5,7 @@
   "main": "dist/server.js",
   "license": "MIT",
   "engines": {
-    "node": ">=16 <21"
+    "node": ">=16"
   },
   "scripts": {
     "dev": "cross-env PAYLOAD_CONFIG_PATH=src/payload/payload.config.ts nodemon",
@@ -44,6 +44,7 @@
     "@lexical/utils": "0.13.1",
     "@payloadcms/bundler-webpack": "^1.0.7",
     "@payloadcms/db-mongodb": "^1.5.1",
+    "@payloadcms/db-postgres": "^3.56.0",
     "@payloadcms/live-preview-react": "^0.2.0",
     "@payloadcms/plugin-cloud": "^3.0.1",
     "@payloadcms/plugin-form-builder": "^1.2.2",
